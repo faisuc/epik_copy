@@ -28,7 +28,7 @@ error_reporting( E_ALL );
 
         if ( isset( self::$instance ) )
         {
-            wp_die( esc_html( 'The Epik Copy class has already been loaded' , 'epik-keyword-counter' ) );
+            wp_die( esc_html( 'The Epik Copy class has already been loaded' , 'epik-copy-posts-pages' ) );
         }
 
         self::$instance = $this;
